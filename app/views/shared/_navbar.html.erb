@@ -1,0 +1,39 @@
+<nav class="left-0 right-0 top-0">
+      <!-- flex container -->
+      <div class="flex container items-center py-5 mx-auto justify-between">
+        <!-- logo -->
+        <div class="">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 block md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          <div class="hidden md:block">
+            <ul class="flex flex-row space-x-5 font-thin text-base">
+              <li class="">
+                <a href="#">Courses</a>
+              </li>
+              <li class="">
+                <a href="#">Enrollment</a>
+              </li>
+              <li class="">
+                <a href="#">Account</a>
+              </li>
+            </ul>
+            <%= link_to 'home', root_path %>
+            <%= link_to 'about', about_path %>
+            <%= link_to 'new course', courses_new_path %>
+          </div>
+        </div>
+        <!-- Nav Items -->
+        <div class="hidden md:flex space-x-4 items-center">
+         
+          <a href="#" class="">
+            <div class="flex items-center text-airbBlanco text-lg">
+              <div class="text-airbBlanco mr-2">
+                
+              </div>
+              Tech University
+            </div>
+          </a>
+        </div>
+      </div>
+    </nav>
